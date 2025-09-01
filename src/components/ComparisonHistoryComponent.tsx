@@ -4,7 +4,6 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import DeleteModal from './DeleteModal';
 import { lightTheme, darkTheme } from '../constants/theme';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteComparison } from '../redux/compareThunks';
 import { RootState } from '../redux/store';
 import { AppDispatch } from '../redux/store';
 
@@ -19,13 +18,8 @@ type ComparisonHistoryComponentProps = {
 
 const ComparisonHistoryComponent: React.FC<ComparisonHistoryComponentProps> = ({ user1, user2, date, time, navigation, comparisonId }) => {
     const [modalVisible, setModalVisible] = React.useState(false);
-    const dispatch = useDispatch<AppDispatch>();
     const mode = useSelector((state: RootState) => state.theme.mode);
     const theme = mode === 'light' ? lightTheme : darkTheme;
-    const handleDelete = () => {
-        dispatch(deleteComparison(comparisonId))
-            .then(() => setModalVisible(false));
-    };
 
     return (
         <>
@@ -74,7 +68,7 @@ const ComparisonHistoryComponent: React.FC<ComparisonHistoryComponentProps> = ({
             <DeleteModal
                 isVisible={modalVisible}
                 onClose={() => setModalVisible(false)}
-                onDelete={handleDelete}
+                onDelete={() => {}}
                 message="Are you sure you want to delete this comparison? This action cannot be undone."
             />
         </>
