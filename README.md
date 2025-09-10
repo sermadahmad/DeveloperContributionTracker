@@ -8,11 +8,13 @@ A React Native app to track and compare GitHub contributions side by side. Analy
   <tr>
     <td><img src="src/assets/screenshots/home screen dct.jpg" width="200" alt="Home Screen"/></td>
     <td><img src="src/assets/screenshots/compare screen dct.jpg" width="200" alt="Compare Screen"/></td>
+    <td><img src="src/assets/screenshots/comparison history screen dct.jpg" width="200" alt="History Screen"/></td>
     <td><img src="src/assets/screenshots/profile screen dct.jpg" width="200" alt="Profile Screen"/></td>
   </tr>
   <tr>
     <td align="center">Home Screen</td>
     <td align="center">Compare Screen</td>
+    <td align="center">Comparison History</td>
     <td align="center">Profile Screen</td>
   </tr>
 </table>
@@ -22,23 +24,25 @@ A React Native app to track and compare GitHub contributions side by side. Analy
 
 <table>
   <tr>
+    <td><img src="src/assets/screenshots/onboarding screen dct.jpg" width="200" alt="Onboarding Screen"/></td>
     <td><img src="src/assets/screenshots/login screen dct.jpg" width="200" alt="Login Screen"/></td>
     <td><img src="src/assets/screenshots/sgnup screen dct.jpg" width="200" alt="Signup Screen"/></td>
-    <td><img src="src/assets/screenshots/onboarding screen dct.jpg" width="200" alt="Onboarding Screen"/></td>
+      <td><img src="src/assets/screenshots/otp screen dct.jpg" width="200" alt="OTP Screen"/></td>
   </tr>
   <tr>
+    <td align="center">Onboarding Screen</td>
     <td align="center">Login Screen</td>
     <td align="center">Signup Screen</td>
-    <td align="center">Onboarding Screen</td>
+    <td align="center">OTP Verification</td>
   </tr>
   <tr>
-    <td><img src="src/assets/screenshots/comparison history screen dct.jpg" width="200" alt="History Screen"/></td>
-    <td><img src="src/assets/screenshots/otp screen dct.jpg" width="200" alt="OTP Screen"/></td>
+    <td><img src="src/assets/screenshots/forgot password screen dct.jpg" width="200" alt="ForgotPassword Screen"/></td>
+    <td><img src="src/assets/screenshots/reset password screen dct.jpg" width="200" alt="ResetPassword Screen"/></td>
     <td><img src="src/assets/screenshots/modal dct.jpg" width="200" alt="Modal"/></td>
   </tr>
   <tr>
-    <td align="center">Comparison History</td>
-    <td align="center">OTP Verification</td>
+    <td align="center">Forgot Password</td>
+    <td align="center">Reset Password</td>
     <td align="center">Modal Dialog</td>
   </tr>
 </table>
